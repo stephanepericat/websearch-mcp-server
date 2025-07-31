@@ -28,12 +28,13 @@ async function main() {
   const list = await client.listTools()
   console.log(list)
 
-  // const result = await client.request(
-  //   { method: 'roll_dice', params: { sides: 6 } },
-  //   // {
-  //   //   content: [{ type: 'text', text: 'Rolling a 6-sided die...' }],
-  //   // },
-  // )
+  const result = await client.callTool({
+    name: 'roll_dice',
+    arguments: {
+      sides: 6,
+    },
+  })
+  console.log('Tool result:', result)
 
   client.close()
 }
