@@ -1,26 +1,39 @@
 import { createMcpHandler } from 'mcp-handler'
 import { z } from 'zod'
+
+const URL = `${process.env.LANGSEARCH_BASE_URL}/v1/web-search`
+
 const handler = createMcpHandler(
   (server) => {
     server.tool(
-      'roll_dice',
-      'Rolls an N-sided die',
+      'search_web',
+      'Searches the web',
       {
-        sides: z.number().int().min(2),
+        maxResults: z.number().int().min(1).max(10).optional(),
+        query: z.string().min(2).max(100),
       },
-      async ({ sides }) => {
-        const value = 1 + Math.floor(Math.random() * sides)
-        return {
-          content: [{ type: 'text', text: `🎲 You rolled a ${value}!` }],
-        }
+      async ({ maxResults, query }) => {
+        const results = await fetch(URL, {
+          method: 'POST',
+          headers: {
+            Authorization: `Bearer ${process.env.LANGSEARCH_API_KEY}`,
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            query,
+            count: maxResults ?? 5, // Default to 5 if not provided
+            summary: true,
+          }),
+        })
+        return await results.json()
       },
     )
   },
   {
     capabilities: {
       tools: {
-        roll_dice: {
-          description: 'Roll an N-sided die',
+        search_web: {
+          description: 'Searches the web',
         },
       },
     },

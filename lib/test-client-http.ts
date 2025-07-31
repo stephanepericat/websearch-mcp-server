@@ -32,13 +32,13 @@ async function main() {
   console.log(list)
 
   const result = await client.callTool({
-    name: 'roll_dice',
+    name: 'search_web',
     arguments: {
-      sides: 6,
+      maxResults: 1,
+      query: 'Model Context Protocol',
     },
   })
-  console.log('Tool result:', result)
-
+  console.log('Tool result:', result.data?.webPages?.value)
   client.close()
 }
 
