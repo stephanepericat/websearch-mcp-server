@@ -34,8 +34,9 @@ async function main() {
   const result = await client.callTool({
     name: 'search_web',
     arguments: {
-      maxResults: 1,
-      query: 'Model Context Protocol',
+      maxResults: 5,
+      query:
+        'What are the long-term physiological and psychological sequelae observed in patients who have recovered from severe COVID-19, and how do these outcomes vary by age and comorbidity profile?',
     },
   })
   console.log('Tool result:', result.structuredContent)

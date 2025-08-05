@@ -19,7 +19,7 @@ const handler = createMcpHandler(
         description: 'Searches the web and returns structured results',
         inputSchema: {
           maxResults: z.number().int().min(1).max(10).optional(),
-          query: z.string().min(2).max(100),
+          query: z.string().min(2).max(500),
         },
         outputSchema: {
           query: z.string(),
@@ -38,6 +38,7 @@ const handler = createMcpHandler(
             query,
             count: maxResults ?? 5, // Default to 5 if not provided
             summary: true,
+            freshNess: 'oneDay',
           }),
         })
         const results = await res.json()

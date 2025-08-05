@@ -31,7 +31,7 @@ async function main() {
   const result = await client.callTool({
     name: 'search_web',
     arguments: {
-      maxResults: 1,
+      maxResults: 5,
       query: 'Model Context Protocol',
     },
   })
