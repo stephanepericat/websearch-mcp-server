@@ -38,6 +38,7 @@ const handler = createMcpHandler(
             query,
             count: maxResults ?? 5, // Default to 5 if not provided
             summary: true,
+            freshness: 'oneDay',
           }),
         })
         const results = await res.json()
@@ -62,10 +63,16 @@ const handler = createMcpHandler(
 
         // Return both content and structuredContent since we have an outputSchema defined
         return {
+          // content: [
+          //   {
+          //     type: 'text' as const,
+          //     text: `Found ${structuredResults.length} search results for: "${query}"`,
+          //   },
+          // ],
           content: [
             {
               type: 'text' as const,
-              text: `Found ${structuredResults.length} search results for: "${query}"`,
+              text: `${JSON.stringify(structuredResults, null, 2)}`,
             },
           ],
           structuredContent: {
