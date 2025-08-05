@@ -35,7 +35,7 @@ async function main() {
       query: 'Model Context Protocol',
     },
   })
-  console.log('Tool result:', result.data?.webPages?.value)
+  console.log('Tool result:', result.structuredContent)
 
   client.close()
 }
