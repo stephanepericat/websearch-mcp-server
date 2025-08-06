@@ -5,8 +5,10 @@ const URL = `${process.env.LANGSEARCH_BASE_URL}/v1/web-search`
 
 // Define the output schema for structured content
 const searchResultSchema = z.object({
+  id: z.string(),
   title: z.string(),
   url: z.string(),
+  snippet: z.string().optional(),
   summary: z.string().optional(),
   datePublished: z.string().optional(),
 })
@@ -28,52 +30,59 @@ const handler = createMcpHandler(
         },
       },
       async ({ maxResults, query }) => {
-        const res = await fetch(URL, {
-          method: 'POST',
-          headers: {
-            Authorization: `Bearer ${process.env.LANGSEARCH_API_KEY}`,
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            query,
-            count: maxResults ?? 5, // Default to 5 if not provided
-            summary: true,
-            freshNess: 'oneDay',
-          }),
-        })
-        const results = await res.json()
-
-        console.log(
-          `Found ${
-            results.data?.webPages?.value?.length || 0
-          } results for query: "${query}"`,
-        )
-
-        // Structure the output for better readability and consistency
-        const webPages = results.data?.webPages?.value ?? []
-
-        // Map the API response to our structured schema
-        const structuredResults: Array<z.infer<typeof searchResultSchema>> =
-          webPages.map((page: any) => ({
-            title: page.name || 'No title',
-            url: page.url || '',
-            ...(page.summary && { summary: page.summary }),
-            ...(page.datePublished && { datePublished: page.datePublished }),
-          }))
-
-        // Return both content and structuredContent since we have an outputSchema defined
-        return {
-          content: [
-            {
-              type: 'text' as const,
-              text: `Found ${structuredResults.length} search results for: "${query}"`,
+        try {
+          const res = await fetch(URL, {
+            method: 'POST',
+            headers: {
+              Authorization: `Bearer ${process.env.LANGSEARCH_API_KEY}`,
+              'Content-Type': 'application/json',
             },
-          ],
-          structuredContent: {
-            query,
-            totalResults: structuredResults.length,
-            results: structuredResults,
-          },
+            body: JSON.stringify({
+              query,
+              count: maxResults ?? 5, // Default to 5 if not provided
+              summary: true,
+              freshness: 'oneDay',
+            }),
+          })
+          const results = await res.json()
+
+          console.log(
+            `Found ${
+              results.data?.webPages?.value?.length || 0
+            } results for query: "${query}"`,
+          )
+
+          // Structure the output for better readability and consistency
+          const webPages = results.data?.webPages?.value ?? []
+
+          // Map the API response to our structured schema
+          const structuredResults: Array<z.infer<typeof searchResultSchema>> =
+            webPages.map((page: any) => ({
+              id: page.id || '',
+              title: page.name || 'No title',
+              url: page.url || '',
+              ...(page.snippet && { snippet: page.snippet }),
+              ...(page.summary && { summary: page.summary }),
+              ...(page.datePublished && { datePublished: page.datePublished }),
+            }))
+
+          // Return both content and structuredContent since we have an outputSchema defined
+          return {
+            content: [
+              {
+                type: 'text' as const,
+                text: `Found ${structuredResults.length} search results for: "${query}"`,
+              },
+            ],
+            structuredContent: {
+              query,
+              totalResults: structuredResults.length,
+              results: structuredResults,
+            },
+          }
+        } catch (error) {
+          console.error('Error during web search:', error)
+          throw new Error('Failed to perform web search')
         }
       },
     )

@@ -35,8 +35,7 @@ async function main() {
     name: 'search_web',
     arguments: {
       maxResults: 5,
-      query:
-        'What are the long-term physiological and psychological sequelae observed in patients who have recovered from severe COVID-19, and how do these outcomes vary by age and comorbidity profile?',
+      query: 'What is the Model Context Protocol, and how does it work?',
     },
   })
   console.log('Tool result:', result.structuredContent)
