@@ -1,0 +1,186 @@
+[
+  {
+    "title": "The Model Context Protocol (MCP): A guide for AI integration",
+    "url": "https://wandb.ai/byyoung3/Generative-AI/reports/The-Model-Context-Protocol-MCP-A-guide-for-AI-integration--VmlldzoxMTgzNDgxOQ",
+    "is_source_local": false,
+    "is_source_both": false,
+    "description": "Weights &amp; Biases, developer tools for machine learning",
+    "page_age": "2025-08-05T11:49:33",
+    "profile": {
+      "name": "Weights & Biases",
+      "url": "https://wandb.ai/byyoung3/Generative-AI/reports/The-Model-Context-Protocol-MCP-A-guide-for-AI-integration--VmlldzoxMTgzNDgxOQ",
+      "long_name": "wandb.ai",
+      "img": "https://imgs.search.brave.com/ejise_-QwTmUDa4nM5sxzFgv2a-pdW8i2xXZz-nQ8BM/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMWRjZDdhYTEw/NjgxNmY4ZGUxZWNj/YmNiNzMwM2U0ZmQ5/NmNkYWZmNWFjMDU2/MzlhZDBlMDRjMTgz/ZmZhYzQ2MS93YW5k/Yi5haS8"
+    },
+    "language": "en",
+    "family_friendly": true,
+    "type": "search_result",
+    "subtype": "article",
+    "is_live": false,
+    "meta_url": {
+      "scheme": "https",
+      "netloc": "wandb.ai",
+      "hostname": "wandb.ai",
+      "favicon": "https://imgs.search.brave.com/ejise_-QwTmUDa4nM5sxzFgv2a-pdW8i2xXZz-nQ8BM/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMWRjZDdhYTEw/NjgxNmY4ZGUxZWNj/YmNiNzMwM2U0ZmQ5/NmNkYWZmNWFjMDU2/MzlhZDBlMDRjMTgz/ZmZhYzQ2MS93YW5k/Yi5haS8",
+      "path": "› byyoung3  › Generative-AI  › reports  › The-Model-Context-Protocol-MCP-A-guide-for-AI-integration--VmlldzoxMTgzNDgxOQ"
+    },
+    "thumbnail": {
+      "src": "https://imgs.search.brave.com/VySAJYIdMgosY2BOeIumFNSVVVjGaIyydCoDiAZSnP4/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93YW5k/Yi5haS9sb2dvLnBu/Zw",
+      "original": "https://wandb.ai/logo.png",
+      "logo": true
+    },
+    "age": "1 day ago"
+  },
+  {
+    "title": "WTF is Model Context Protocol (MCP) and why should publishers care?",
+    "url": "https://digiday.com/media/wtf-is-model-context-protocol-mcp-and-why-should-publishers-care/",
+    "is_source_local": false,
+    "is_source_both": false,
+    "description": "Model Context Protocol, or MCP, <strong>standardizes how an AI application connects to external sources</strong>. It was developed by AI company Anthropic and released in open-source last November.  · It’s kind of like robots.txt for AI, in which publishers can structure how content is shared with AI systems.",
+    "page_age": "2025-08-05T04:01:00",
+    "profile": {
+      "name": "Digiday",
+      "url": "https://digiday.com/media/wtf-is-model-context-protocol-mcp-and-why-should-publishers-care/",
+      "long_name": "digiday.com",
+      "img": "https://imgs.search.brave.com/L0DlQ9vlHtJ6DJv4O1JpDPApDXe2qTEw1hIJxmCvU9E/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZjA5ODM1Zjcx/ZjkxNDU4OGRlN2I5/YTNmMjI5NjE1YmFm/ZmVhZGEwNTMyNjhm/NzkzNTQ5NmU4YmU1/NjU5MDM2Mi9kaWdp/ZGF5LmNvbS8"
+    },
+    "language": "en",
+    "family_friendly": true,
+    "type": "search_result",
+    "subtype": "article",
+    "is_live": false,
+    "meta_url": {
+      "scheme": "https",
+      "netloc": "digiday.com",
+      "hostname": "digiday.com",
+      "favicon": "https://imgs.search.brave.com/L0DlQ9vlHtJ6DJv4O1JpDPApDXe2qTEw1hIJxmCvU9E/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZjA5ODM1Zjcx/ZjkxNDU4OGRlN2I5/YTNmMjI5NjE1YmFm/ZmVhZGEwNTMyNjhm/NzkzNTQ5NmU4YmU1/NjU5MDM2Mi9kaWdp/ZGF5LmNvbS8",
+      "path": "  › home  › wtf is model context protocol (mcp) and why should publishers care?"
+    },
+    "thumbnail": {
+      "src": "https://imgs.search.brave.com/VtG1HiwxRQtYC6IdKUd4naT4ZmHOHS8tWSlZ3vH04DA/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9kaWdp/ZGF5LmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvc2l0ZXMvMy8y/MDI1LzAyL1NjcmVl/bnNob3QtMjAyNS0w/Mi0xOS1hdC0yLjEw/LjA24oCvUE0ucG5n",
+      "original": "https://digiday.com/wp-content/uploads/sites/3/2025/02/Screenshot-2025-02-19-at-2.10.06 PM.png",
+      "logo": false
+    },
+    "age": "1 day ago",
+    "extra_snippets": [
+      "It’s a vision of the internet where AI agents make decisions and perform tasks on behalf of users. But that means websites may need to be refitted so that they’re easily understood by AI. That’s where Model Context Protocol comes in. What does any of this mean for publishers?",
+      "There are a number of technical protocols and frameworks being developed now that can help publishers turn their sites agentic. One of them gaining more attention is called Model Context Protocol. We’ll dig into what it means, and how it applies to publishers.",
+      "Model Context Protocol, or MCP, standardizes how an AI application connects to external sources. It was developed by AI company Anthropic and released in open-source last November.  · It’s kind of like robots.txt for AI, in which publishers can structure how content is shared with AI systems. Developers can put data into a server and make it accessible to AI systems (and, on the flip side, lock away data that’s not in that server from AI agents).",
+      "“[MCP] lets you index all of your content so it can get so it can be a plugin into a chat box. And so imagine a world where I subscribe to The Atlantic and The New York Times… and along with my subscriptions, I get access to the Model Context Protocol server that lets me bring that content into my interface of choice [such as ChatGPT or Gemini],” he said."
+    ]
+  },
+  {
+    "title": "Top 10 model context protocol use cases | London Daily News",
+    "url": "https://www.londondaily.news/top-10-model-context-protocol-use-cases/",
+    "is_source_local": false,
+    "is_source_both": false,
+    "description": "The model context protocol (MCP) is <strong>a robust open standard that enables secure, real-time, bidirectional communication between AI models and various data sources, tools, and software environments</strong>. The protocol was developed to address the major limitation of AI models: the inability to consistently ...",
+    "page_age": "2025-08-05T12:52:39",
+    "profile": {
+      "name": "London Daily News",
+      "url": "https://www.londondaily.news/top-10-model-context-protocol-use-cases/",
+      "long_name": "londondaily.news",
+      "img": "https://imgs.search.brave.com/-P4Izu_m0lADDTJyKC7_BnAxhqV_u9BwqVljlBQPHBU/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOWExNmNlMDRk/OTc0NGQxZmJmMTc1/MmE2MTQ2ZjQ0Y2Y4/M2YwNmVmYTAxZjRm/ZDBjZTQ2YTU0ODIx/NTQxNjMwMC93d3cu/bG9uZG9uZGFpbHku/bmV3cy8"
+    },
+    "language": "en",
+    "family_friendly": true,
+    "type": "search_result",
+    "subtype": "article",
+    "is_live": false,
+    "meta_url": {
+      "scheme": "https",
+      "netloc": "londondaily.news",
+      "hostname": "www.londondaily.news",
+      "favicon": "https://imgs.search.brave.com/-P4Izu_m0lADDTJyKC7_BnAxhqV_u9BwqVljlBQPHBU/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOWExNmNlMDRk/OTc0NGQxZmJmMTc1/MmE2MTQ2ZjQ0Y2Y4/M2YwNmVmYTAxZjRm/ZDBjZTQ2YTU0ODIx/NTQxNjMwMC93d3cu/bG9uZG9uZGFpbHku/bmV3cy8",
+      "path": "  › home  › top 10 model context protocol use cases"
+    },
+    "thumbnail": {
+      "src": "https://imgs.search.brave.com/YRbYK_bbkvmUqAVEx43_RrCW-wguqwdGLiSh3Y0DIQ8/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9kMmZy/eWpsbXVieXV1aC5j/bG91ZGZyb250Lm5l/dC93cC1jb250ZW50/L3VwbG9hZHMvMjAy/NS8wOC8wNTEyNTE0/My9idXNpbmVzc21h/bi1maWxsaW5nLS5f/aW1yZXNpemVyLmF2/aWY",
+      "original": "https://d2fryjlmubyuuh.cloudfront.net/wp-content/uploads/2025/08/05125143/businessman-filling-._imresizer.avif",
+      "logo": false
+    },
+    "age": "1 day ago",
+    "extra_snippets": [
+      "The model context protocol (MCP) is a robust open standard that enables secure, real-time, bidirectional communication between AI models and various data sources, tools, and software environments. The protocol was developed to address the major limitation of AI models: the inability to consistently preserve and utilise “context” as users or processes shift across systems, devices, […]",
+      "Major tech players: Microsoft integrates MCP into Windows AI Foundry, making it easy for desktop apps to collaborate contextually. AI model support: Anthropic’s Claude models natively work with MCP for superior multi-tool usage. Open source growth: The availability of community-maintained MCP servers for Google Drive, Slack, GitHub, and more allows smaller developers to join the ecosystem. ... Improved cross-company collaboration via standardised protocols.",
+      "The model context protocol (MCP) is a robust open standard that enables secure, real-time, bidirectional communication between AI models and various data sources, tools, and software environments. The protocol was developed to address the major limitation of AI models: the inability to consistently preserve and utilise “context” as users or processes shift across systems, devices, and workflows.",
+      "Enterprises use disparate systems for HR, sales, logistics, and operations, creating data silos that blunt the impact of AI. ... Standardised connectivity: MCP enables one protocol to connect CRM, ERP, HRMS, and custom databases, making unified analytics and AI recommendations possible. Contextual AI responses: AI models surface relevant insights spanning multiple sources, such as sales, inventory, and customer support data."
+    ]
+  },
+  {
+    "title": "What is Model Context Protocol (MCP)? The key to agentic AI explained",
+    "url": "https://www.wrike.com/blog/what-is-model-context-protocol/",
+    "is_source_local": false,
+    "is_source_both": false,
+    "description": "What is the Model Context Protocol (MCP)? MCP is <strong>a standardized integration layer that connects AI models with external tools and data sources for real-time decision making</strong>. How does MCP improve AI performance? MCP reduces AI isolation by allowing models to access live data and perform coordinated ...",
+    "page_age": "2025-08-06T13:37:57",
+    "profile": {
+      "name": "Wrike",
+      "url": "https://www.wrike.com/blog/what-is-model-context-protocol/",
+      "long_name": "wrike.com",
+      "img": "https://imgs.search.brave.com/UKQAwBT-0ZklDck-6yZMCu5hXhbdoub3xAIJL7DtkI0/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZDc5MjlkNjBh/NjUxNDQyOTA0OTYz/MmRlYWE5ZGYyNzMw/NTI2OWM4MDNkMzhi/NzA5ODAzM2ViN2Y2/MjI5MWU5OC93d3cu/d3Jpa2UuY29tLw"
+    },
+    "language": "en",
+    "family_friendly": true,
+    "type": "search_result",
+    "subtype": "faq",
+    "is_live": false,
+    "meta_url": {
+      "scheme": "https",
+      "netloc": "wrike.com",
+      "hostname": "www.wrike.com",
+      "favicon": "https://imgs.search.brave.com/UKQAwBT-0ZklDck-6yZMCu5hXhbdoub3xAIJL7DtkI0/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZDc5MjlkNjBh/NjUxNDQyOTA0OTYz/MmRlYWE5ZGYyNzMw/NTI2OWM4MDNkMzhi/NzA5ODAzM2ViN2Y2/MjI5MWU5OC93d3cu/d3Jpa2UuY29tLw",
+      "path": "  › blog home  › ai  › what is model context protocol (mcp)? the usb-c for agentic ai explained"
+    },
+    "thumbnail": {
+      "src": "https://imgs.search.brave.com/SXWa0U-mN9wEX3f9gio-7ZXq5PfE6FodAfz_4Pk8Cd0/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93ZWIt/c3RhdGljLndyaWtl/LmNvbS9ibG9nL2Nv/bnRlbnQvdXBsb2Fk/cy8yMDI1LzA0L2Js/b2dwb3N0LWNvdmVy/LUFJLTAxLnBuZz9h/dj0zNTU4NGU3YTRi/YjUwMGNmOWU5MDdk/OTIzNTEwMTE0Mw",
+      "original": "https://web-static.wrike.com/blog/content/uploads/2025/04/blogpost-cover-AI-01.png?av=35584e7a4bb500cf9e907d9235101143",
+      "logo": false
+    },
+    "age": "2 hours ago",
+    "extra_snippets": [
+      "What is the Model Context Protocol (MCP)? MCP is a standardized integration layer that connects AI models with external tools and data sources for real-time decision making. How does MCP improve AI performance? MCP reduces AI isolation by allowing models to access live data and perform coordinated tasks, enhancing their business value. Why is MCP important for enterprises? It streamlines workflows and reduces the complexity of custom integrations, enabling scalable, context-aware AI deployment.",
+      "MCP unlocks a new level of AI capability by giving it access to real-time data, tools, and context beyond its training. Instead of working in isolation, AI models can now take meaningful action across platforms. What does MCP allow you to do that you couldn’t do before? Before MCP, integrating AI with enterprise tools often required brittle, one-off solutions. Now, teams can connect AI models to multiple systems through a standardized protocol.",
+      "What is MCP? Discover how Model Context Protocol gives AI agents real-time context from tools, data, and systems to power more intelligent workflows.",
+      "But your systems still can’t talk to each other — and your results don’t match the hype. That disconnect is the silent blocker for many enterprises today. While AI models are getting smarter, most are stuck working in silos, unable to access the relevant context they need to deliver real business value. That’s where the Model Context Protocol (MCP) comes in. Think of it as the USB-C of AI."
+    ]
+  },
+  {
+    "title": "What Is the Model Context Protocol (MCP)? How Will it Enable the Future of Agentic AI? - Interconnections - The Equinix Blog",
+    "url": "https://blog.equinix.com/blog/2025/08/06/what-is-the-model-context-protocol-mcp-how-will-it-enable-the-future-of-agentic-ai/",
+    "is_source_local": false,
+    "is_source_both": false,
+    "description": "There needed to be a simple, repeatable way of connecting AI models and assets, and that’s exactly what MCP delivers. Developed by Anthropic and released as an open-source framework in November 2024, MCP is <strong>a standardized approach for providing context to AI models</strong>.",
+    "page_age": "2025-08-06T12:00:21",
+    "profile": {
+      "name": "Equinix",
+      "url": "https://blog.equinix.com/blog/2025/08/06/what-is-the-model-context-protocol-mcp-how-will-it-enable-the-future-of-agentic-ai/",
+      "long_name": "blog.equinix.com",
+      "img": "https://imgs.search.brave.com/gcmJNjpmoHOBbaysx8_94Hk9mLkE6dbCBdFcJELeZso/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZTlhOThlZWFh/NDUzNjk0NGZmOWQy/NWY2MDQ1YzA3M2Y4/MzMyNWQzMmUxYjM2/MjRiZTBjMjJiMmYy/MDFiMTcxNi9ibG9n/LmVxdWluaXguY29t/Lw"
+    },
+    "language": "en",
+    "family_friendly": true,
+    "type": "search_result",
+    "subtype": "generic",
+    "is_live": false,
+    "meta_url": {
+      "scheme": "https",
+      "netloc": "blog.equinix.com",
+      "hostname": "blog.equinix.com",
+      "favicon": "https://imgs.search.brave.com/gcmJNjpmoHOBbaysx8_94Hk9mLkE6dbCBdFcJELeZso/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZTlhOThlZWFh/NDUzNjk0NGZmOWQy/NWY2MDQ1YzA3M2Y4/MzMyNWQzMmUxYjM2/MjRiZTBjMjJiMmYy/MDFiMTcxNi9ibG9n/LmVxdWluaXguY29t/Lw",
+      "path": "  › home  › what is the model context protocol (mcp)? how will it enable the future of agentic ai?"
+    },
+    "thumbnail": {
+      "src": "https://imgs.search.brave.com/eaWj7TYemQonsACDkYnxHraky4qGMVlCCDOzNU_M21s/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9ibG9n/LmVxdWluaXguY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDI1/LzA4L0Fkb2JlU3Rv/Y2tfMTI1MDA1Mjk3/MS5qcGVn",
+      "original": "https://blog.equinix.com/wp-content/uploads/2025/08/AdobeStock_1250052971.jpeg",
+      "logo": false
+    },
+    "age": "4 hours ago",
+    "extra_snippets": [
+      "AI agents need to connect quickly and easily across distributed environments, and MCP helps them do that ... Sr. Manager, Global Technology Alliances ... Link copied! Traditional AI inference is based on static large language models (LLMs) that can’t see past their training cutoff dates. If something isn’t in the training dataset, then as far as the model’s concerned, it simply doesn’t exist.",
+      "Big names like Google and OpenAI have adopted the technology, making it clear that there’s much more to MCP than just hype. Dhanji R. Prasana, Chief Technology Officer at Block, put it best: Open technologies like the Model Context Protocol are the bridges that connect AI to real-world applications, ensuring innovation is accessible, transparent, and rooted in collaboration.”[2]",
+      "Enterprises recognized the need to enable connectivity across distributed AI environments, and some even started writing custom code as a workaround. But this wasn’t a scalable approach, nor was it fully reliable. There needed to be a simple, repeatable way of connecting AI models and assets, and that’s exactly what MCP delivers. Developed by Anthropic and released as an open-source framework in November 2024, MCP is a standardized approach for providing context to AI models.",
+      "At a time when multi-model AI hosted on hybrid multicloud infrastructure has become the norm, agents may struggle to connect to data and tools that are distributed across cloud and on-premises environments. This is the problem that the Model Context Protocol (MCP) is intended to solve."
+    ]
+  }
+]
